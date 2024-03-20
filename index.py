@@ -40,9 +40,9 @@ def stripTags(pageContents):
 
     return text
 
-url_001 = 'https://pt.wikipedia.org/wiki/COBOL'
-url_002 = 'https://pt.wikipedia.org/wiki/Linguagem_assembly'
-url_003 = 'https://pt.wikipedia.org/wiki/C'
+url_001 = 'https://en.wikipedia.org/wiki/Ruby_on_Rails'
+url_002 = 'https://pt.wikipedia.org/wiki/Laravel'
+url_003 = 'https://en.wikipedia.org/wiki/Django_(web_framework)'
 
 response_001 = urllib.request.urlopen(url_001)
 response_002 = urllib.request.urlopen(url_002)
